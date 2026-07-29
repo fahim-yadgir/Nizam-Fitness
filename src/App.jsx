@@ -7,7 +7,7 @@ import Webinar from "./Components/Webinar";
 import Contact from "./Components/Contact";
 import FAQ from "./Components/FAQ";
 import Footer from "./Components/Footer";
-import Hero from "./Components/Hero";
+
 function App() {
   return (
     <>
@@ -20,7 +20,7 @@ function App() {
       <Contact />
       <FAQ />
       <Footer />
-      <Hero />
+      
     </>
   );
 }
