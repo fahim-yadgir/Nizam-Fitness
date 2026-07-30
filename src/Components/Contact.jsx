@@ -71,7 +71,7 @@ const Contact = () => {
                   📞 Phone
                 </h3>
                 <p className="text-gray-300 mt-2">
-                  +91 XXXXX XXXXX
+                  +91 72630 42421
                 </p>
               </div>
 
@@ -80,7 +80,7 @@ const Contact = () => {
                   📧 Email
                 </h3>
                 <p className="text-gray-300 mt-2">
-                  your@email.com
+                  nizamyadgir07@gmail.com
                 </p>
               </div>
 

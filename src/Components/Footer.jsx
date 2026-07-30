@@ -39,11 +39,11 @@ const Footer = () => {
             </h3>
 
             <p className="text-gray-400">
-              📧 your@email.com
+              📧 nizamyadgir07@gmail.com
             </p>
 
             <p className="text-gray-400 mt-3">
-              📞 +91 XXXXX XXXXX
+              📞 +91 72630 42421
             </p>
 
             <p className="text-gray-400 mt-3">

@@ -1,5 +1,4 @@
-import hero from "../assets/hero.png";
-
+import hero from "../assets/images/Nizam2.png";
 const About = () => {
   return (
     <section id="about" className="bg-black text-white py-24">
@@ -7,11 +6,17 @@ const About = () => {
 
         {/* Left Image */}
         <div className="flex justify-center">
-          <img
-            src={hero}
-            alt="Trainer"
-            className="rounded-2xl w-full max-w-md shadow-2xl border-2 border-yellow-400"
-          />
+          <div className="relative">
+  {/* Yellow Glow */}
+  <div className="absolute inset-0 bg-yellow-400 rounded-3xl blur-2xl opacity-25"></div>
+
+  {/* Image */}
+  <img
+    src={hero}
+    alt="Trainer"
+    className="relative w-full max-w-md rounded-3xl border-4 border-yellow-400 shadow-[0_0_40px_rgba(250,204,21,0.6)]"
+  />
+</div>
         </div>
 
         {/* Right Content */}
