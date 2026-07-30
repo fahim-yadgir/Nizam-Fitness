@@ -33,7 +33,7 @@ const Hero = () => {
           </p>
 
           <div className="flex gap-4 mt-10">
-            <a
+            <a 
               href="#contact"
               className="bg-yellow-400 text-black px-8 py-4 rounded-lg font-bold"
             >
@@ -50,28 +50,26 @@ const Hero = () => {
         </motion.div>
 
         {/* RIGHT IMAGE */}
-        <motion.div
-          initial={{ opacity: 0, x: 80 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1 }}
-          className="relative flex justify-center"
-        >
-          {/* Yellow Glow */}
-          <div className="absolute w-96 h-96 bg-yellow-400 rounded-full blur-3xl opacity-20"></div>
+<motion.div
+  initial={{ opacity: 0, x: 80 }}
+  animate={{ opacity: 1, x: 0 }}
+  transition={{ duration: 1 }}
+  className="hidden md:flex justify-center"
+>
+  <div className="relative">
+    {/* Yellow Glow */}
+    <div className="absolute inset-0 bg-yellow-400 rounded-3xl blur-2xl opacity-25"></div>
 
-          {/* YOUR IMAGE */}
-          <div className="relative">
-  {/* Yellow Glow */}
-  <div className="absolute inset-0 bg-yellow-400 rounded-3xl blur-2xl opacity-25"></div>
-
-  {/* Image */}
+    {/* Frame with padding (no bottom padding) */}
+<div className="relative w-full max-w-md rounded-3xl border-4 border-yellow-400 shadow-[0_0_40px_rgba(250,204,21,0.6)] bg-black pt-4 pl-4 pr-4">
   <img
-  src={hero}
-  alt="Nizam Fitness"
-  className="hidden md:block relative w-full max-w-lg rounded-3xl hover:scale-105 transition duration-500"
-/>
+    src={hero}
+    alt="Nizam Fitness"
+    className="w-full h-full object-cover rounded-2xl"
+  />
 </div>
-        </motion.div>
+  </div>
+</motion.div>
 
       </div>
     </section>
