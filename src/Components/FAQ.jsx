@@ -1,23 +1,23 @@
 const faqs = [
   {
-    question: "Who can join this fitness webinar?",
+    question: "Who can join your online personal training?",
     answer:
-      "Anyone interested in improving their fitness, whether beginner or experienced.",
+      "Anyone can join, whether you're a beginner, intermediate, or advanced. Your training plan will be customized to your fitness level and goals.",
   },
   {
-    question: "Will I get a diet plan?",
+    question: "Will I receive a personalized diet plan?",
     answer:
-      "Yes, you'll receive nutrition guidance and diet recommendations during the session.",
+      "Yes. Every client receives a personalized diet plan based on their body type, fitness goals, and lifestyle.",
   },
   {
-    question: "How long is the webinar?",
+    question: "How does online personal training work?",
     answer:
-      "Approximately 90 minutes, including a live Q&A session.",
+      "After registration, you'll receive a customized workout plan, diet guidance, regular progress tracking, and continuous support through WhatsApp.",
   },
   {
-    question: "Is there any support after the webinar?",
+    question: "Will I get support during my fitness journey?",
     answer:
-      "Yes, participants can contact me for further guidance and support.",
+      "Absolutely! You'll receive ongoing guidance, weekly progress reviews, and direct WhatsApp support to help you stay on track.",
   },
 ];
 
