@@ -39,7 +39,7 @@ const Footer = () => {
             </h3>
 
             <p className="text-gray-400">
-              📧 nizamyadgir07@gmail.com
+              📧 nizamyadgir1524@gmail.com
             </p>
 
             <p className="text-gray-400 mt-3">

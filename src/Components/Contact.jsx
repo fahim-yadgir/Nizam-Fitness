@@ -80,7 +80,7 @@ const Contact = () => {
                   📧 Email
                 </h3>
                 <p className="text-gray-300 mt-2">
-                  nizamyadgir07@gmail.com
+                  nizamyadgir1524@gmail.com
                 </p>
               </div>
 
